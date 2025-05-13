@@ -1,0 +1,246 @@
+@media (min-width: 576px) {
+    body{background-image: url('../img/FUNDODV.webp');
+        background-size: cover;
+        color: #FFFFFF;
+        height: 100%;
+    }
+    p{
+        color: #FFFFFF;
+    }
+    /*.container{
+        background-color: #171C20;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .container-fluid{
+        background-color: #171C20;
+        color: #FFFFFF;
+        text-align: center;
+    }*/
+    html{
+        height: 100%;
+        background-color: #171C20;
+    }
+    header,footer{
+        color: #FFFFFF;
+        background-color: #171C20;
+        height: 100px;
+        width: 100%;
+    }
+    footer{
+        position: absolute;
+        margin-top: auto;
+        bottom: 0;
+    }
+    .titulo{
+        justify-self: center;
+        font-size: 70px;
+        color: #FFFFFF;
+        width: 300px;
+    }
+    .telefone{
+        background-color: #171C20;
+        color: #FFFFFF;
+        font-size: 30px;
+        
+    }
+    .logo{
+        position: absolute;
+        left: 10%;
+        margin-right: auto;
+    }
+    .entrar,.cadastrar,.operacoes{
+        width: 200px;
+        font-size: 12px;
+        margin-left: auto;
+        right: 0;
+        background-color: #CDCDCD;
+    }
+    .tabela{
+        position: absolute;
+        bottom: 0;
+    }
+    #login{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #textos,.quemsomos,.pedaleconosco,.testemunhos{
+        color: #FFFFFF;
+        font-size: 16px;
+        height: 25%;
+        background-color: #171C20;
+        align-items: center;
+        margin: 1%;
+    }
+    .testemunhos{
+        background-color: #171C20;
+        position: relative;
+        margin: 1%;
+    }
+    /*.menuprodutos{
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+    }*/
+    .produto{
+        width: 200px;
+    }
+    .footer2{
+        position: relative;
+        margin-top: auto;
+        bottom: 0;
+    }
+    
+    .carousel{
+        justify-self: center;
+        width: 300px;
+        height: 300px;
+    }
+    #botoes{
+        align-self: center;
+    }
+
+
+/*
+
+.endereco{
+    color: #FFFFFF;
+    align-self: center;
+    justify-content: center;
+    margin: 10%;
+}
+
+
+
+
+.footerprodutos{
+    position: relative;
+    margin-top: auto;
+    bottom: 0;
+}
+
+
+.header-filhos{
+    height: 100px;
+    width: 300px;
+    margin-left: 5%;
+    
+    
+}
+.div3index{
+    text-align: center;
+}
+.carrossel{
+    justify-items: center;
+    align-items: center;
+    font-size: larger;
+    color: #FFFFFF;
+    background-color: #171C20;
+    padding: 1px;
+}
+.div2index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quemsomos,.pedaleconosco{
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: 100px;
+    background-color: #77787F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.quemsomos{
+    margin-left: 100px;
+}
+.links{
+    margin-right: 20px;
+    margin-left: auto;
+    display: flex;
+}
+.linkprodutos{
+    font-size: 30px;
+    background-color: #CDCDCD;
+    margin: auto;
+    
+}
+.menuprodutos{
+    background-color: #77787F;
+    display: flex;
+    align-self: flex-start;
+    
+    float: left;
+    flex-direction: column;
+}
+.div2index{
+    display: flex;
+    align-content: center;
+}
+
+.div4index{
+    font-size: larger;
+    color: #FFFFFF;
+    background-color: #77787F;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 1px;
+}
+.emaillogin,.senhalogin{
+    background-color: #CDCDCD;
+}
+.confirmarlogin{
+    margin-bottom: 150px;
+}
+.emaillogin{
+    margin-top: 150px;
+}
+.div1login{
+    margin: 0 40% 0 30%;
+}
+.div1cadastro{
+    margin: 5% 40% 0 30%;
+}
+.emailcadastro,.senhacadastro,.confirmarsenhacadastro,.nomecadastro,.telefonecadastro,.enderecocadastro,.cpfcadastro{
+    background-color: #CDCDCD;
+}
+
+.div1contatos{
+    float: left;
+    margin: 5px 30% 5px 10%;
+    flex-direction: column;
+    display: flex;
+    background-color: #CDCDCD;
+}
+.div2contatos{
+    float: right;
+    margin: 5px 10% 5px 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #CDCDCD;
+}
+.div3contatos{
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+.produto{
+    margin: 10px auto 10px auto;
+    background-color: #CDCDCD;
+}
+.divprodutos{
+    display: flex;
+    flex-direction: row;
+}
+.pesquisa{
+    border-radius: 10px;
+    font-size: larger;
+    margin: 10px 30% 10px 30%;
+    background-color: #CDCDCD;
+}*/
+}
