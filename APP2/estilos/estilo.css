@@ -1,105 +1,138 @@
-@media (min-width: 576px) {
-    body{background-image: url('../img/FUNDODV.webp');
-        background-size: cover;
-        color: #FFFFFF;
-        height: 100%;
-    }
-    p{
-        color: #FFFFFF;
-    }
-    /*.container{
-        background-color: #171C20;
-        color: #FFFFFF;
-        text-align: center;
-    }
-    .container-fluid{
-        background-color: #171C20;
-        color: #FFFFFF;
-        text-align: center;
-    }*/
-    html{
-        height: 100%;
-        background-color: #171C20;
-    }
-    header,footer{
-        color: #FFFFFF;
-        background-color: #171C20;
-        height: 100px;
-        width: 100%;
-    }
-    footer{
-        position: absolute;
-        margin-top: auto;
-        bottom: 0;
-    }
-    .titulo{
-        justify-self: center;
-        font-size: 70px;
-        color: #FFFFFF;
-        width: 300px;
-    }
-    .telefone{
-        background-color: #171C20;
-        color: #FFFFFF;
-        font-size: 30px;
-        
-    }
-    .logo{
-        position: absolute;
-        left: 10%;
-        margin-right: auto;
-    }
-    .entrar,.cadastrar,.operacoes{
-        width: 200px;
-        font-size: 12px;
-        margin-left: auto;
-        right: 0;
-        background-color: #CDCDCD;
-    }
-    .tabela{
-        position: absolute;
-        bottom: 0;
-    }
-    #login{
-        display: flex;
-        flex-direction: column;
+body {
+    background-image: url('../img/FUNDODV.webp');
+    background-size: cover;
+    color: #FFFFFF;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
-    }
-    #textos,.quemsomos,.pedaleconosco,.testemunhos{
-        color: #FFFFFF;
-        font-size: 16px;
-        height: 25%;
-        background-color: #171C20;
-        align-items: center;
-        margin: 1%;
-    }
-    .testemunhos{
-        background-color: #171C20;
-        position: relative;
-        margin: 1%;
-    }
-    /*.menuprodutos{
+main {
+    height: 100%;
+    flex: 1;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+.container {
+    background-color: #171C20;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.container-fluid {
+    background-color: #171C20;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+    background-color: #171C20;
+}
+
+header,
+footer {
+    color: #FFFFFF;
+    background-color: #171C20;
+    height: 100px;
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    margin-top: auto;
+    bottom: 0;
+    padding: 10px;
+}
+
+.footer2 {
+    position: relative;
+    margin-top: auto;
+    bottom: 0;
+    padding: 10px;
+}
+
+.titulo {
+    justify-self: center;
+    font-size: 70px;
+    color: #FFFFFF;
+    width: 300px;
+}
+
+.telefone {
+    background-color: #171C20;
+    color: #FFFFFF;
+    font-size: 30px;
+
+}
+
+.logo {
+    position: absolute;
+    left: 10%;
+    margin-right: auto;
+}
+
+.entrar,
+.cadastrar,
+.operacoes {
+    width: 200px;
+    font-size: 12px;
+    margin-left: auto;
+    right: 0;
+    background-color: #CDCDCD;
+}
+
+.tabela {
+    position: absolute;
+    bottom: 0;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#textos,
+.quemsomos,
+.pedaleconosco,
+.testemunhos {
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 25%;
+    background-color: #171C20;
+    align-items: center;
+    margin: 1%;
+}
+
+.testemunhos {
+    background-color: #171C20;
+    position: relative;
+    margin: 1%;
+}
+
+/*.menuprodutos{
         width: 150px;
         display: flex;
         flex-direction: column;
     }*/
-    .produto{
-        width: 200px;
-    }
-    .footer2{
-        position: relative;
-        margin-top: auto;
-        bottom: 0;
-    }
-    
-    .carousel{
-        justify-self: center;
-        width: 300px;
-        height: 300px;
-    }
-    #botoes{
-        align-self: center;
-    }
+.produto {
+    width: 200px;
+}
+
+
+.carousel {
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+}
+
+#botoes {
+    align-self: center;
+}
 
 
 /*
@@ -243,4 +276,3 @@
     margin: 10px 30% 10px 30%;
     background-color: #CDCDCD;
 }*/
-}

@@ -8,25 +8,6 @@
     <link rel="stylesheet" href="../estilos/reset.css">
     <link rel="stylesheet" href="../estilos/estilo.css">
     <style>
-        html,
-        body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-image: url('../img/FUNDODV.webp');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .container {
-            background-color: transparent;
-            padding: 20px;
-        }
-
         table {
             border-collapse: collapse;
             width: 100%;
@@ -43,7 +24,7 @@
         }
 
         th {
-            background-color: #00adb5;
+            background-color: #6c757d;
         }
 
         tr:nth-child(even) {
@@ -51,7 +32,7 @@
         }
 
         a.action-link {
-            background-color: #00adb5;
+            background-color: #6c757d;
             color: white;
             padding: 6px 12px;
             margin-right: 5px;
@@ -61,7 +42,7 @@
         }
 
         a.action-link:hover {
-            background-color: #028a94;
+            background-color: #6c757d;
         }
     </style>
      <!-- Bootstrap CSS -->
@@ -101,6 +82,7 @@
 
 
     </header>
+    <main>
     <div class="container">
         <?php
         include("../controller/bicicletacontroller.php");
@@ -139,6 +121,7 @@
         }
         ?>
     </div>
+    </main>
     <footer class="footer">
         <div class="container-fluid">
             <div class="row">
